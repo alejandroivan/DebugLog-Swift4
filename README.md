@@ -1,9 +1,10 @@
 # DebugLog-Swift4
-DebugLog is a simple class that helps logging in debug mode in Swift 4
+DebugLog is a simple class that helps logging in debug mode in Swift 4.
+It is meant to "use and discard", so basically use the initializers to print. The result is not useful, so simply discard it (i.e. do not assign it to a constant or variable).
 
 ## Usage
 1. Download and drag `DebugLog.swift` to your Swift 4 project.
-2. Use `Log(_ string:, _forceInProduction)` to print logs.      
+2. Use `Log(string:, forceInProduction:)` to print logs (or any of its convenience initializers).
 
 ## Parameters
 
