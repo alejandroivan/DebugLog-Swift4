@@ -1,9 +1,5 @@
 //
 //  DebugLog.swift
-//  davidsystem
-//
-//  Created by dpsmac1 on 28-12-17.
-//  Copyright © 2017 Digitalproserver. All rights reserved.
 //
 
 import Foundation
@@ -21,7 +17,7 @@ class Log {
             return isDebug
         }
         
-        assert(set(debug: true)) // assert() solo se llama en playground y en -Onone (debug) builds.
+        assert(set(debug: true)) // assert() only works in playgrounds and with -Onone (debug) builds.
         return isDebug
     }()
     

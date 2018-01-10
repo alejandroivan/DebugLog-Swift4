@@ -26,7 +26,7 @@ a) These will print **HELLO WORLD** to the console when in debug mode and are al
     Log(string: "HELLO WORLD", forceInProduction: false)
 ```
 
-b) This will print **HELLO WORLD** to the console in in debug and in production mode (i.e. "always").
+b) This will print **HELLO WORLD** to the console in debug and in production mode (i.e. "always").
 
 ```
     Log("HELLO WORLD", true)
